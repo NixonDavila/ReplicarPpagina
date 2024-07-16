@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cabecera{
+   display: flex;
+   justify-content: space-around;
+}
+
+#subcabecera{
+    height: 60%;
+    width: 40%;
+}
+
+.logo{
+    height: 60px;
+}
+
+#buscar{
+    height: 40%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fondo{
+    height: 100px;
+    background-color: #2c204b;
+}
+
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#megaMenu > ul > li{
+    width: 85vw;
+    background: #D75229;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+#megaMenuBtn{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+
+}
+#megaMenuBtn:hover{
+    background-color: orangered;
+}
+
+.ul li {
+    color: aliceblue;
+}
+
+.ul a :hover {
+background-color: orangered;
+}
+
+
+#contenedor{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+#con1{
+    height: 80%;
+    width: 33%;
+}
+
+
+#con2{
+    height: 80%;
+    width: 33%;
+    background-color: rgb(204, 197, 197);
+}
+
+#logo2{
+    height: 100px;
+    margin-left: 80px;
+}
+
+#con3{
+    height: 80%;
+    width: 33%;
+}
+#img3{
+    height: 400px;
+}
+
+#contenedor3{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    height: 300px;
+    width: 200px;
+}
